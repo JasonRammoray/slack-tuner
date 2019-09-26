@@ -4,7 +4,7 @@ Since Slack team can change the app structure the way they want this tool might 
 A basic understanding of html, css and js is highly advised before using the tool.
 
 ### Things supported at the moment
-[x] Custom styles injection
+[x] Custom styles injection (if you've been missing a dark theme in Slack, then just add some custom styles yourself)
 
 ### First things first
 Install the npm packages by running the following command in your terminal (make sure you do that in the project folder):
@@ -41,4 +41,4 @@ That is expected behavior because Slack can update the app archive upon major/mi
 In that case, please, apply a previous patch by running the tool again.
 
 ### I have an idea for a thing X to be implemented. To whom should I reach out?
-Just shoot an email to jason.rammoray@gmail.com with a message subject `[Slack-tuner] proposal]` and we can discuss it further.
+Just shoot an email to jason.rammoray@gmail.com with a message subject `[Slack-tuner] proposal` and we can discuss it further.
