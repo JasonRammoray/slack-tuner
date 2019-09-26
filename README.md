@@ -1,3 +1,5 @@
+![slack-tuner](./picture.png)
+
 ### Rationale
 This repository represents a collection of utilities one can use to customize Slack UI in case if the app doesn't provide respective settings.
 Since Slack team can change the app structure the way they want this tool might become outdated upon the next release.
@@ -34,7 +36,7 @@ Upon making any changes the tool will always create a backup first but keep in m
 
 ### Ok, I've restored a backup but Slack still doesn't launch
 That is possible in case if the original app archive was spoiled already prior to launching the tool.
-That way just reinstall Slack.
+That way just [reinstall Slack](https://slack.com/downloads).
 
 ### I just updated Slack and lost my patches
 That is expected behavior because Slack can update the app archive upon major/minor/patch updates.
