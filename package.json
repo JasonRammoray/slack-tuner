@@ -1,0 +1,27 @@
+{
+  "name": "slack-tuner",
+  "version": "1.0.0",
+  "description": "This repository represents a collection of utilities one can use to customize Slack UI in case if the app doesn't provide respective settings.",
+  "main": "index.js",
+  "scripts": {
+    "inject-styles": "node inject-styles",
+    "restore-backup": "node restore-backup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonRammoray/slack-tuner.git"
+  },
+  "author": "Viacheslav Moskalenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonRammoray/slack-tuner/issues"
+  },
+  "homepage": "https://github.com/JasonRammoray/slack-tuner#readme",
+  "dependencies": {
+    "asar": "^2.0.1",
+    "rimraf": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
